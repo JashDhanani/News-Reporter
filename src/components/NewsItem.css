@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.con1{
+    display: flex;
+    justify-content: center;
+}
+
+.mcon, .con1{
+    margin: auto 0px;
+}
+
+.box1{
+    height: 415px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px 35px;
+    text-align:left;
+}
+
+.box1 img{
+    width: 300px;
+    height: 200px;
+    /* border: solid black; */
+    border-bottom: 2px solid black;
+}
+
+.btn a button{
+    background-color: blue;
+    border: none;
+    height: 25px;
+    width: 80px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.containt{
+    height: 21.5vh;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn a button:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.boxTitle, .boxDesc, .date{
+    margin: 7px;
+}
+
+.date{
+    font-weight: 100;
+}

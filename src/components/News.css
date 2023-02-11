@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mNewsCon{
+    text-align: center;
+    margin-left: 300px;
+}
+
+.newsMcon{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.newsCon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* display: block; */
+    /* height: 100vh; */
+    width: 70vw;
+    margin-left: 65px;
+    /* border: 2px solid red; */
+}
+
+.newsTitle{
+    text-align: center;
+    margin: 30px;
+    /* width: 60vw; */
+}
+
+.newsTitle h2{
+    margin: 5px;
+}
+
+.btnNP{
+    background-color: blue;
+    color: white;
+    height: 25px;
+    width: 80px;
+    margin: 10px 100px;
+    margin-top: 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnNP:hover, .btnNo:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.btnNo {
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 25px;
+    width: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px 5px;
+}
