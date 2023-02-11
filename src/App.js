@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import News from './components/News';
 import Sidebar from './components/Sidebar';
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom"
 import LoadingBar from 'react-top-loading-bar'
 import { useState } from 'react';
 import Home from './components/Home';
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <LoadingBar
         color='#f11946'
@@ -37,7 +37,7 @@ function App() {
             {/* <News pageSize={6} catagory={"in"} /> */}
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
